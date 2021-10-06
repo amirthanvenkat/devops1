@@ -1,7 +1,7 @@
 {
   "name": "node-docker-app",
   "version": "1.0.0",
-  "description": "Test repository for learning purposes",
+  "description": "Simple repository for deploying express.js app in Google Cloud with a CI/CD workflow",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

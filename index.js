@@ -8,6 +8,10 @@ app.get("/", async (req, res) => {
   res.json({ status: "UP" });
 });
 
+app.get("/deploy", async (req, res) => {
+  res.json({ status: "hi i'm deployed through github actions" });
+});
+
 app.get("/fx", (req, res, next) => {
     rand1 = Math.floor(Math.random() * 90) + 10;
     rand2 = Math.floor(Math.random() * 90) + 10;
