@@ -6,7 +6,12 @@
 
 ![Flow](/assets/flow.png)
 
-The README.md in that repository should explain (with the help of visuals?) what you are trying to achieve, what steps you're taking, how they work – this is way more important than automation magic.
+## Prerequisites:
+1. Node.js application
+2. GitHub repository
+3. Google Cloud SDK and Google Cloud account login
+4. GCP Credentials (Secrets.json file) 
+
 
 ## Hosted URL:
 
@@ -23,7 +28,22 @@ The README.md in that repository should explain (with the help of visuals?) what
 3. /deploy
     - workflow deployment message
 
-<h1>Steps</h1>
+# How the automation magic works
+
+## Step 1.
+>Make changes to the project and commit.
+
+## Step 2.
+>Push changes to GitHub devops1 repository.
+
+## Step 3.
+>Github Actions workflow "Deploy to Google App Engine" is triggered.
+
+## Step 4.
+>"GAE Deploy" job is set up to run.
+
+## Step 5.
+> Job is completed. Endpoints have been updated. Use URL to verify.
 
 
 
