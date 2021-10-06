@@ -21,5 +21,5 @@ app.get("/fx", (req, res, next) => {
    });
 
 app.listen(port, () => {
-  console.log(`App listening on port ${PORT}`);
+  console.log(`App listening on port ` + port);
 });
